@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAA1F26A2A24677F00920C0A /* Jays_WardrobeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2692A24677F00920C0A /* Jays_WardrobeApp.swift */; };
+		DAA1F26C2A24677F00920C0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F26B2A24677F00920C0A /* ContentView.swift */; };
+		DAA1F26E2A24678100920C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA1F26D2A24678100920C0A /* Assets.xcassets */; };
+		DAA1F2712A24678100920C0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA1F2702A24678100920C0A /* Preview Assets.xcassets */; };
+		DAA1F27B2A24678100920C0A /* Jays_WardrobeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F27A2A24678100920C0A /* Jays_WardrobeTests.swift */; };
+		DAA1F2852A24678100920C0A /* Jays_WardrobeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2842A24678100920C0A /* Jays_WardrobeUITests.swift */; };
+		DAA1F2872A24678100920C0A /* Jays_WardrobeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2862A24678100920C0A /* Jays_WardrobeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAA1F2772A24678100920C0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAA1F25E2A24677F00920C0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA1F2652A24677F00920C0A;
+			remoteInfo = "Jays Wardrobe";
+		};
+		DAA1F2812A24678100920C0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAA1F25E2A24677F00920C0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA1F2652A24677F00920C0A;
+			remoteInfo = "Jays Wardrobe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAA1F2662A24677F00920C0A /* Jays Wardrobe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jays Wardrobe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA1F2692A24677F00920C0A /* Jays_WardrobeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jays_WardrobeApp.swift; sourceTree = "<group>"; };
+		DAA1F26B2A24677F00920C0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAA1F26D2A24678100920C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAA1F2702A24678100920C0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAA1F2762A24678100920C0A /* Jays WardrobeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jays WardrobeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA1F27A2A24678100920C0A /* Jays_WardrobeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jays_WardrobeTests.swift; sourceTree = "<group>"; };
+		DAA1F2802A24678100920C0A /* Jays WardrobeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jays WardrobeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA1F2842A24678100920C0A /* Jays_WardrobeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jays_WardrobeUITests.swift; sourceTree = "<group>"; };
+		DAA1F2862A24678100920C0A /* Jays_WardrobeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jays_WardrobeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAA1F2632A24677F00920C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA1F2732A24678100920C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA1F27D2A24678100920C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAA1F25D2A24677F00920C0A = {
+			isa = PBXGroup;
+			children = (
+				DAA1F2682A24677F00920C0A /* Jays Wardrobe */,
+				DAA1F2792A24678100920C0A /* Jays WardrobeTests */,
+				DAA1F2832A24678100920C0A /* Jays WardrobeUITests */,
+				DAA1F2672A24677F00920C0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAA1F2672A24677F00920C0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAA1F2662A24677F00920C0A /* Jays Wardrobe.app */,
+				DAA1F2762A24678100920C0A /* Jays WardrobeTests.xctest */,
+				DAA1F2802A24678100920C0A /* Jays WardrobeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAA1F2682A24677F00920C0A /* Jays Wardrobe */ = {
+			isa = PBXGroup;
+			children = (
+				DAA1F2692A24677F00920C0A /* Jays_WardrobeApp.swift */,
+				DAA1F26B2A24677F00920C0A /* ContentView.swift */,
+				DAA1F26D2A24678100920C0A /* Assets.xcassets */,
+				DAA1F26F2A24678100920C0A /* Preview Content */,
+			);
+			path = "Jays Wardrobe";
+			sourceTree = "<group>";
+		};
+		DAA1F26F2A24678100920C0A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAA1F2702A24678100920C0A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAA1F2792A24678100920C0A /* Jays WardrobeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAA1F27A2A24678100920C0A /* Jays_WardrobeTests.swift */,
+			);
+			path = "Jays WardrobeTests";
+			sourceTree = "<group>";
+		};
+		DAA1F2832A24678100920C0A /* Jays WardrobeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAA1F2842A24678100920C0A /* Jays_WardrobeUITests.swift */,
+				DAA1F2862A24678100920C0A /* Jays_WardrobeUITestsLaunchTests.swift */,
+			);
+			path = "Jays WardrobeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAA1F2652A24677F00920C0A /* Jays Wardrobe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA1F28A2A24678100920C0A /* Build configuration list for PBXNativeTarget "Jays Wardrobe" */;
+			buildPhases = (
+				DAA1F2622A24677F00920C0A /* Sources */,
+				DAA1F2632A24677F00920C0A /* Frameworks */,
+				DAA1F2642A24677F00920C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jays Wardrobe";
+			productName = "Jays Wardrobe";
+			productReference = DAA1F2662A24677F00920C0A /* Jays Wardrobe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAA1F2752A24678100920C0A /* Jays WardrobeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA1F28D2A24678100920C0A /* Build configuration list for PBXNativeTarget "Jays WardrobeTests" */;
+			buildPhases = (
+				DAA1F2722A24678100920C0A /* Sources */,
+				DAA1F2732A24678100920C0A /* Frameworks */,
+				DAA1F2742A24678100920C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA1F2782A24678100920C0A /* PBXTargetDependency */,
+			);
+			name = "Jays WardrobeTests";
+			productName = "Jays WardrobeTests";
+			productReference = DAA1F2762A24678100920C0A /* Jays WardrobeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAA1F27F2A24678100920C0A /* Jays WardrobeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA1F2902A24678100920C0A /* Build configuration list for PBXNativeTarget "Jays WardrobeUITests" */;
+			buildPhases = (
+				DAA1F27C2A24678100920C0A /* Sources */,
+				DAA1F27D2A24678100920C0A /* Frameworks */,
+				DAA1F27E2A24678100920C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA1F2822A24678100920C0A /* PBXTargetDependency */,
+			);
+			name = "Jays WardrobeUITests";
+			productName = "Jays WardrobeUITests";
+			productReference = DAA1F2802A24678100920C0A /* Jays WardrobeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAA1F25E2A24677F00920C0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DAA1F2652A24677F00920C0A = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					DAA1F2752A24678100920C0A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DAA1F2652A24677F00920C0A;
+					};
+					DAA1F27F2A24678100920C0A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DAA1F2652A24677F00920C0A;
+					};
+				};
+			};
+			buildConfigurationList = DAA1F2612A24677F00920C0A /* Build configuration list for PBXProject "Jays Wardrobe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAA1F25D2A24677F00920C0A;
+			productRefGroup = DAA1F2672A24677F00920C0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAA1F2652A24677F00920C0A /* Jays Wardrobe */,
+				DAA1F2752A24678100920C0A /* Jays WardrobeTests */,
+				DAA1F27F2A24678100920C0A /* Jays WardrobeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAA1F2642A24677F00920C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA1F2712A24678100920C0A /* Preview Assets.xcassets in Resources */,
+				DAA1F26E2A24678100920C0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA1F2742A24678100920C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA1F27E2A24678100920C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAA1F2622A24677F00920C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA1F26C2A24677F00920C0A /* ContentView.swift in Sources */,
+				DAA1F26A2A24677F00920C0A /* Jays_WardrobeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA1F2722A24678100920C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA1F27B2A24678100920C0A /* Jays_WardrobeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA1F27C2A24678100920C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA1F2852A24678100920C0A /* Jays_WardrobeUITests.swift in Sources */,
+				DAA1F2872A24678100920C0A /* Jays_WardrobeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAA1F2782A24678100920C0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA1F2652A24677F00920C0A /* Jays Wardrobe */;
+			targetProxy = DAA1F2772A24678100920C0A /* PBXContainerItemProxy */;
+		};
+		DAA1F2822A24678100920C0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA1F2652A24677F00920C0A /* Jays Wardrobe */;
+			targetProxy = DAA1F2812A24678100920C0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAA1F2882A24678100920C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAA1F2892A24678100920C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAA1F28B2A24678100920C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jays Wardrobe/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UT6F4B4LM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.Jays-Wardrobe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAA1F28C2A24678100920C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jays Wardrobe/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UT6F4B4LM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.Jays-Wardrobe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAA1F28E2A24678100920C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UT6F4B4LM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.Jays-WardrobeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jays Wardrobe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jays Wardrobe";
+			};
+			name = Debug;
+		};
+		DAA1F28F2A24678100920C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UT6F4B4LM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.Jays-WardrobeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jays Wardrobe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jays Wardrobe";
+			};
+			name = Release;
+		};
+		DAA1F2912A24678100920C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UT6F4B4LM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.Jays-WardrobeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Jays Wardrobe";
+			};
+			name = Debug;
+		};
+		DAA1F2922A24678100920C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UT6F4B4LM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.Jays-WardrobeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Jays Wardrobe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAA1F2612A24677F00920C0A /* Build configuration list for PBXProject "Jays Wardrobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA1F2882A24678100920C0A /* Debug */,
+				DAA1F2892A24678100920C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA1F28A2A24678100920C0A /* Build configuration list for PBXNativeTarget "Jays Wardrobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA1F28B2A24678100920C0A /* Debug */,
+				DAA1F28C2A24678100920C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA1F28D2A24678100920C0A /* Build configuration list for PBXNativeTarget "Jays WardrobeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA1F28E2A24678100920C0A /* Debug */,
+				DAA1F28F2A24678100920C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA1F2902A24678100920C0A /* Build configuration list for PBXNativeTarget "Jays WardrobeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA1F2912A24678100920C0A /* Debug */,
+				DAA1F2922A24678100920C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAA1F25E2A24677F00920C0A /* Project object */;
+}
