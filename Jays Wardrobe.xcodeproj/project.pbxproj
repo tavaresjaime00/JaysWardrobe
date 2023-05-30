@@ -9,11 +9,22 @@
 /* Begin PBXBuildFile section */
 		DAA1F26A2A24677F00920C0A /* Jays_WardrobeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2692A24677F00920C0A /* Jays_WardrobeApp.swift */; };
 		DAA1F26C2A24677F00920C0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F26B2A24677F00920C0A /* ContentView.swift */; };
-		DAA1F26E2A24678100920C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA1F26D2A24678100920C0A /* Assets.xcassets */; };
-		DAA1F2712A24678100920C0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA1F2702A24678100920C0A /* Preview Assets.xcassets */; };
 		DAA1F27B2A24678100920C0A /* Jays_WardrobeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F27A2A24678100920C0A /* Jays_WardrobeTests.swift */; };
 		DAA1F2852A24678100920C0A /* Jays_WardrobeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2842A24678100920C0A /* Jays_WardrobeUITests.swift */; };
 		DAA1F2872A24678100920C0A /* Jays_WardrobeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2862A24678100920C0A /* Jays_WardrobeUITestsLaunchTests.swift */; };
+		DAA1F2A82A2467F200920C0A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2932A2467F100920C0A /* MainViewModel.swift */; };
+		DAA1F2A92A2467F200920C0A /* RecommendationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2942A2467F100920C0A /* RecommendationStore.swift */; };
+		DAA1F2AA2A2467F200920C0A /* FavoriteWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2962A2467F100920C0A /* FavoriteWrapper.swift */; };
+		DAA1F2AB2A2467F200920C0A /* Shirt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2972A2467F100920C0A /* Shirt.swift */; };
+		DAA1F2AC2A2467F200920C0A /* TextImageProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2982A2467F100920C0A /* TextImageProviding.swift */; };
+		DAA1F2AD2A2467F200920C0A /* shirts.json in Resources */ = {isa = PBXBuildFile; fileRef = DAA1F29A2A2467F100920C0A /* shirts.json */; };
+		DAA1F2AE2A2467F200920C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA1F29B2A2467F100920C0A /* Assets.xcassets */; };
+		DAA1F2B02A2467F200920C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA1F29E2A2467F100920C0A /* LaunchScreen.storyboard */; };
+		DAA1F2B32A2467F200920C0A /* RecommendationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2A32A2467F100920C0A /* RecommendationsView.swift */; };
+		DAA1F2B42A2467F200920C0A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2A42A2467F100920C0A /* CardView.swift */; };
+		DAA1F2B52A2467F200920C0A /* SmallCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2A52A2467F100920C0A /* SmallCardView.swift */; };
+		DAA1F2B62A2467F200920C0A /* CardsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2A62A2467F100920C0A /* CardsStackView.swift */; };
+		DAA1F2B72A2467F200920C0A /* SectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2A72A2467F100920C0A /* SectionTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +48,24 @@
 		DAA1F2662A24677F00920C0A /* Jays Wardrobe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jays Wardrobe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA1F2692A24677F00920C0A /* Jays_WardrobeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jays_WardrobeApp.swift; sourceTree = "<group>"; };
 		DAA1F26B2A24677F00920C0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DAA1F26D2A24678100920C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DAA1F2702A24678100920C0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DAA1F2762A24678100920C0A /* Jays WardrobeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jays WardrobeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA1F27A2A24678100920C0A /* Jays_WardrobeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jays_WardrobeTests.swift; sourceTree = "<group>"; };
 		DAA1F2802A24678100920C0A /* Jays WardrobeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jays WardrobeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA1F2842A24678100920C0A /* Jays_WardrobeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jays_WardrobeUITests.swift; sourceTree = "<group>"; };
 		DAA1F2862A24678100920C0A /* Jays_WardrobeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jays_WardrobeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAA1F2932A2467F100920C0A /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; tabWidth = 4; };
+		DAA1F2942A2467F100920C0A /* RecommendationStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationStore.swift; sourceTree = "<group>"; };
+		DAA1F2962A2467F100920C0A /* FavoriteWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteWrapper.swift; sourceTree = "<group>"; };
+		DAA1F2972A2467F100920C0A /* Shirt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shirt.swift; sourceTree = "<group>"; };
+		DAA1F2982A2467F100920C0A /* TextImageProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextImageProviding.swift; sourceTree = "<group>"; };
+		DAA1F29A2A2467F100920C0A /* shirts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shirts.json; sourceTree = "<group>"; };
+		DAA1F29B2A2467F100920C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAA1F29F2A2467F100920C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAA1F2A32A2467F100920C0A /* RecommendationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationsView.swift; sourceTree = "<group>"; };
+		DAA1F2A42A2467F100920C0A /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		DAA1F2A52A2467F100920C0A /* SmallCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallCardView.swift; sourceTree = "<group>"; };
+		DAA1F2A62A2467F100920C0A /* CardsStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsStackView.swift; sourceTree = "<group>"; };
+		DAA1F2A72A2467F100920C0A /* SectionTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,20 +116,17 @@
 		DAA1F2682A24677F00920C0A /* Jays Wardrobe */ = {
 			isa = PBXGroup;
 			children = (
+				DAA1F29E2A2467F100920C0A /* LaunchScreen.storyboard */,
+				DAA1F2B82A2468FA00920C0A /* Preview Content */,
+				DAA1F2932A2467F100920C0A /* MainViewModel.swift */,
+				DAA1F2952A2467F100920C0A /* Model */,
+				DAA1F2942A2467F100920C0A /* RecommendationStore.swift */,
+				DAA1F2992A2467F100920C0A /* Supporting Files */,
+				DAA1F2A22A2467F100920C0A /* Views */,
 				DAA1F2692A24677F00920C0A /* Jays_WardrobeApp.swift */,
 				DAA1F26B2A24677F00920C0A /* ContentView.swift */,
-				DAA1F26D2A24678100920C0A /* Assets.xcassets */,
-				DAA1F26F2A24678100920C0A /* Preview Content */,
 			);
 			path = "Jays Wardrobe";
-			sourceTree = "<group>";
-		};
-		DAA1F26F2A24678100920C0A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				DAA1F2702A24678100920C0A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		DAA1F2792A24678100920C0A /* Jays WardrobeTests */ = {
@@ -125,6 +144,44 @@
 				DAA1F2862A24678100920C0A /* Jays_WardrobeUITestsLaunchTests.swift */,
 			);
 			path = "Jays WardrobeUITests";
+			sourceTree = "<group>";
+		};
+		DAA1F2952A2467F100920C0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAA1F2962A2467F100920C0A /* FavoriteWrapper.swift */,
+				DAA1F2972A2467F100920C0A /* Shirt.swift */,
+				DAA1F2982A2467F100920C0A /* TextImageProviding.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAA1F2992A2467F100920C0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAA1F29B2A2467F100920C0A /* Assets.xcassets */,
+				DAA1F29A2A2467F100920C0A /* shirts.json */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAA1F2A22A2467F100920C0A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DAA1F2A32A2467F100920C0A /* RecommendationsView.swift */,
+				DAA1F2A42A2467F100920C0A /* CardView.swift */,
+				DAA1F2A52A2467F100920C0A /* SmallCardView.swift */,
+				DAA1F2A62A2467F100920C0A /* CardsStackView.swift */,
+				DAA1F2A72A2467F100920C0A /* SectionTitleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DAA1F2B82A2468FA00920C0A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +288,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAA1F2712A24678100920C0A /* Preview Assets.xcassets in Resources */,
-				DAA1F26E2A24678100920C0A /* Assets.xcassets in Resources */,
+				DAA1F2AD2A2467F200920C0A /* shirts.json in Resources */,
+				DAA1F2B02A2467F200920C0A /* LaunchScreen.storyboard in Resources */,
+				DAA1F2AE2A2467F200920C0A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +315,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA1F2AB2A2467F200920C0A /* Shirt.swift in Sources */,
+				DAA1F2B62A2467F200920C0A /* CardsStackView.swift in Sources */,
+				DAA1F2AA2A2467F200920C0A /* FavoriteWrapper.swift in Sources */,
 				DAA1F26C2A24677F00920C0A /* ContentView.swift in Sources */,
 				DAA1F26A2A24677F00920C0A /* Jays_WardrobeApp.swift in Sources */,
+				DAA1F2B52A2467F200920C0A /* SmallCardView.swift in Sources */,
+				DAA1F2B42A2467F200920C0A /* CardView.swift in Sources */,
+				DAA1F2B72A2467F200920C0A /* SectionTitleView.swift in Sources */,
+				DAA1F2A92A2467F200920C0A /* RecommendationStore.swift in Sources */,
+				DAA1F2B32A2467F200920C0A /* RecommendationsView.swift in Sources */,
+				DAA1F2AC2A2467F200920C0A /* TextImageProviding.swift in Sources */,
+				DAA1F2A82A2467F200920C0A /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,11 +362,23 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		DAA1F29E2A2467F100920C0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAA1F29F2A2467F100920C0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		DAA1F2882A24678100920C0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -329,6 +409,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = Assets.xcassets;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -359,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -389,6 +471,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = Assets.xcassets;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -412,19 +495,22 @@
 		DAA1F28B2A24678100920C0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Jays Wardrobe/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 9UT6F4B4LM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jay's Wardrobe";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,19 +527,22 @@
 		DAA1F28C2A24678100920C0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Jays Wardrobe/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 9UT6F4B4LM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jay's Wardrobe";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
