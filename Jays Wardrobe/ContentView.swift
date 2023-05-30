@@ -20,10 +20,10 @@ struct ContentView: View {
                 VStack(alignment: .center) {
                     HStack(alignment: .center, spacing: 20.0) {
                         Text("Jay's Wardrobe")
-                            .font(.system(size: 55.0, weight: .bold, design: .rounded))
+                            .font(.system(size: 35.0, weight: .bold, design: .rounded))
                             .foregroundColor(Color("secondary"))
                             .padding(10)
-                        Image("logo").resizable().frame(width: 250.0, height: 250.0)
+                        Image("logo").resizable().frame(width: 150.0, height: 150.0)
                     }
                     
                     SectionTitleView(text: "Swipe to Like or Dislike").foregroundColor(Color("secondary"))
