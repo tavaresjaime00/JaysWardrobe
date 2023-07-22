@@ -25,6 +25,8 @@
 		DAA1F2B52A2467F200920C0A /* SmallCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2A52A2467F100920C0A /* SmallCardView.swift */; };
 		DAA1F2B62A2467F200920C0A /* CardsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2A62A2467F100920C0A /* CardsStackView.swift */; };
 		DAA1F2B72A2467F200920C0A /* SectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1F2A72A2467F100920C0A /* SectionTitleView.swift */; };
+		DAD136362A6B962600D51C4A /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = DAD136352A6B962600D51C4A /* GoogleMobileAds */; };
+		DAD136392A6B981200D51C4A /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD136382A6B981200D51C4A /* BannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		DAA1F2A52A2467F100920C0A /* SmallCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallCardView.swift; sourceTree = "<group>"; };
 		DAA1F2A62A2467F100920C0A /* CardsStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsStackView.swift; sourceTree = "<group>"; };
 		DAA1F2A72A2467F100920C0A /* SectionTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionTitleView.swift; sourceTree = "<group>"; };
+		DAD136372A6B96A200D51C4A /* Jays-Wardrobe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jays-Wardrobe-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DAD136382A6B981200D51C4A /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD136362A6B962600D51C4A /* GoogleMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +121,7 @@
 		DAA1F2682A24677F00920C0A /* Jays Wardrobe */ = {
 			isa = PBXGroup;
 			children = (
+				DAD136372A6B96A200D51C4A /* Jays-Wardrobe-Info.plist */,
 				DAA1F29E2A2467F100920C0A /* LaunchScreen.storyboard */,
 				DAA1F2B82A2468FA00920C0A /* Preview Content */,
 				DAA1F2932A2467F100920C0A /* MainViewModel.swift */,
@@ -173,6 +179,7 @@
 				DAA1F2A52A2467F100920C0A /* SmallCardView.swift */,
 				DAA1F2A62A2467F100920C0A /* CardsStackView.swift */,
 				DAA1F2A72A2467F100920C0A /* SectionTitleView.swift */,
+				DAD136382A6B981200D51C4A /* BannerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +207,9 @@
 			dependencies = (
 			);
 			name = "Jays Wardrobe";
+			packageProductDependencies = (
+				DAD136352A6B962600D51C4A /* GoogleMobileAds */,
+			);
 			productName = "Jays Wardrobe";
 			productReference = DAA1F2662A24677F00920C0A /* Jays Wardrobe.app */;
 			productType = "com.apple.product-type.application";
@@ -248,7 +258,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					DAA1F2652A24677F00920C0A = {
 						CreatedOnToolsVersion = 14.3;
@@ -272,6 +282,9 @@
 				Base,
 			);
 			mainGroup = DAA1F25D2A24677F00920C0A;
+			packageReferences = (
+				DAD136342A6B962600D51C4A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
 			productRefGroup = DAA1F2672A24677F00920C0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -325,6 +338,7 @@
 				DAA1F2B72A2467F200920C0A /* SectionTitleView.swift in Sources */,
 				DAA1F2A92A2467F200920C0A /* RecommendationStore.swift in Sources */,
 				DAA1F2B32A2467F200920C0A /* RecommendationsView.swift in Sources */,
+				DAD136392A6B981200D51C4A /* BannerView.swift in Sources */,
 				DAA1F2AC2A2467F200920C0A /* TextImageProviding.swift in Sources */,
 				DAA1F2A82A2467F200920C0A /* MainViewModel.swift in Sources */,
 			);
@@ -379,6 +393,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -412,6 +427,7 @@
 				DEVELOPMENT_ASSET_PATHS = Assets.xcassets;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -430,6 +446,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -441,6 +458,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -474,6 +492,7 @@
 				DEVELOPMENT_ASSET_PATHS = Assets.xcassets;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -485,6 +504,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -498,11 +518,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 9UT6F4B4LM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jays-Wardrobe-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Jay's Wardrobe";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -515,7 +536,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.Jays-Wardrobe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -530,11 +551,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 9UT6F4B4LM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jays-Wardrobe-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Jay's Wardrobe";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -547,7 +569,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.Jays-Wardrobe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -672,6 +694,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAD136342A6B962600D51C4A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAD136352A6B962600D51C4A /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAD136342A6B962600D51C4A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DAA1F25E2A24677F00920C0A /* Project object */;
 }

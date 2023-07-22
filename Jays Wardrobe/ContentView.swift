@@ -61,6 +61,9 @@ struct ContentView: View {
                     Spacer()
                     RecommendationsView(recommendations: viewModel.recommendations)
                 }
+                //Spacer()
+                BannerContentView()
+                
             }
             .task {
                 await viewModel.loadAllShirts()

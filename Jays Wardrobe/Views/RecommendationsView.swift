@@ -44,6 +44,7 @@ struct RecommendationsView<Model>: View where Model: TextImageProviding & Hashab
                     .foregroundColor(.white)
                     
                     Spacer()
+                    
                 }
                 .padding(.horizontal)
                 .padding(.vertical, 64)

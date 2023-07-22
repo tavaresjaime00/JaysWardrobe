@@ -12,6 +12,7 @@ struct Jays_WardrobeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            //BannerContentView(navigationTitle: "Banner")
         }
     }
 }
