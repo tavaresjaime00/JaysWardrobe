@@ -61,9 +61,7 @@ struct ContentView: View {
                     Spacer()
                     RecommendationsView(recommendations: viewModel.recommendations)
                 }
-                //Spacer()
-                BannerContentView()
-                
+                Spacer()
             }
             .task {
                 await viewModel.loadAllShirts()
@@ -71,6 +69,7 @@ struct ContentView: View {
             .background(Color("background"))
         }
         .navigationViewStyle(.stack)
+
     }
 }
 

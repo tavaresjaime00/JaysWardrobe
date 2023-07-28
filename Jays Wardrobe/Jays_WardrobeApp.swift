@@ -11,7 +11,9 @@ import SwiftUI
 struct Jays_WardrobeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+                ContentView()
+            BannerContentView().padding(.top, 0).frame(height: CGFloat(UIDevice.current.hashValue.bitWidth)/2.0)
+
             //BannerContentView(navigationTitle: "Banner")
         }
     }

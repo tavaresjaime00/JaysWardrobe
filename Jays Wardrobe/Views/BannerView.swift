@@ -58,7 +58,6 @@ private struct BannerView: UIViewControllerRepresentable {
   fileprivate class Coordinator: NSObject, BannerViewControllerWidthDelegate, GADBannerViewDelegate
   {
     let parent: BannerView
-
     init(_ parent: BannerView) {
       self.parent = parent
     }
