@@ -24,7 +24,7 @@ struct BannerContentView_Previews: PreviewProvider {
 private struct BannerView: UIViewControllerRepresentable {
   @State private var viewWidth: CGFloat = .zero
   private let bannerView = GADBannerView()
-  private let adUnitID = "ca-app-pub-6733494635071346/1014613169"
+  private let adUnitID = "ca-app-pub-6733494635071346/4439839936"
 
   func makeUIViewController(context: Context) -> some UIViewController {
     let bannerViewController = BannerViewController()
